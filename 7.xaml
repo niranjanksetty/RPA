@@ -1,0 +1,170 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Drawing;assembly=System.Drawing.Common" xmlns:sd1="clr-namespace:System.Drawing;assembly=System.Drawing.Primitives" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Platform.SyncObjects</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="1320,1682" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Chrome W3Schools Tryit Editor" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="488,1659" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="ba2f3e0a-5e9e-4523-acde-9da40df9d518" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="486,1464" sap2010:WorkflowViewState.IdRef="Sequence_4">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Submit(1)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,194" sap2010:WorkflowViewState.IdRef="NClick_3" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="ba2f3e0a-5e9e-4523-acde-9da40df9d518" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="w3schools.com/tags/tryit.asp" ContentHash="_gWzBU2yEkS34EzfgsWpSw" DesignTimeRectangle="849, 298, 57, 21" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='iframeResult' tag='IFRAME' /&gt;&lt;webctrl tag='INPUT' type='submit' /&gt;" Guid="809ff5f9-181c-4c59-ad4d-89c5c183b449" InformativeScreenshot="00a6d4aa69cdc40ca17f87ba897e127c.jpg" Reference="2LySjoRf9E6ctCVOb2qplA/mRF3rLtGQkqOqK5nxdvyjQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='W3Schools Tryit Editor' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NCheckState DisplayName="Check App State 'I have a bike I have a …'" EnableIfNotExists="False" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="452,1210" sap2010:WorkflowViewState.IdRef="NCheckState_1" ScopeIdentifier="ba2f3e0a-5e9e-4523-acde-9da40df9d518" Version="V5">
+              <uix:NCheckState.IfExists>
+                <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="450,882" sap2010:WorkflowViewState.IdRef="Sequence_2">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <uix:NCheck Action="Check" DisplayName="Check/Uncheck 'unchecked'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,195" sap2010:WorkflowViewState.IdRef="NCheck_1" ScopeIdentifier="ba2f3e0a-5e9e-4523-acde-9da40df9d518" Version="V5">
+                    <uix:NCheck.Target>
+                      <uix:TargetAnchorable BrowserURL="w3schools.com/tags/tryit.asp" ContentHash="agMQ5d1HmkWZJFmWuAYVDA" DesignTimeRectangle="873, 222, 82, 17" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='iframeResult' tag='IFRAME' /&gt;&lt;webctrl tag='LABEL' /&gt;" Guid="f57e2b5e-6a9e-4b75-9380-535312d73f49" InformativeScreenshot="3ea97c0316638486ed9e83b2be1ccf1b.jpg" Reference="2LySjoRf9E6ctCVOb2qplA/jKUeJ4ZHvkKz5Xe4eM7bVQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='W3Schools Tryit Editor' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
+                    </uix:NCheck.Target>
+                  </uix:NCheck>
+                  <Delay Duration="00:00:05" sap:VirtualizedContainerService.HintSize="416,123" sap2010:WorkflowViewState.IdRef="Delay_1" />
+                  <uix:NCheck Action="Check" DisplayName="Check/Uncheck 'unchecked(1)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,195" sap2010:WorkflowViewState.IdRef="NCheck_2" ScopeIdentifier="ba2f3e0a-5e9e-4523-acde-9da40df9d518" Version="V5">
+                    <uix:NCheck.Target>
+                      <uix:TargetAnchorable BrowserURL="w3schools.com/tags/tryit.asp" ContentHash="WX3Ygm19CEOSMUFFsrpKDg" DesignTimeRectangle="873, 242, 74, 17" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='iframeResult' tag='IFRAME' /&gt;&lt;webctrl aaname=' I have a car' tag='LABEL' /&gt;" Guid="40de5091-42af-4323-9f92-5248be78dc7d" InformativeScreenshot="b5e2a1d12bb16d46f67261bc5b95b1a7.jpg" Reference="2LySjoRf9E6ctCVOb2qplA/Ki601OSyc0Sjvu-tECFCww" ScopeSelectorArgument="&lt;html app='chrome.exe' title='W3Schools Tryit Editor' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
+                    </uix:NCheck.Target>
+                  </uix:NCheck>
+                  <Delay Duration="00:00:05" sap:VirtualizedContainerService.HintSize="416,123" sap2010:WorkflowViewState.IdRef="Delay_2" />
+                  <uix:NCheck Action="[UiPath.UIAutomationNext.Enums.NCheckType.Uncheck]" DisplayName="Check/Uncheck 'unchecked(2)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,186" sap2010:WorkflowViewState.IdRef="NCheck_3" ScopeIdentifier="ba2f3e0a-5e9e-4523-acde-9da40df9d518" Version="V5">
+                    <uix:NCheck.Target>
+                      <uix:TargetAnchorable BrowserURL="w3schools.com/tags/tryit.asp" ContentHash="hlCug5WXZ0yAHGv59x_JRw" DesignTimeRectangle="873, 262, 82, 17" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='iframeResult' tag='IFRAME' /&gt;&lt;webctrl aaname=' I have a boat' tag='LABEL' /&gt;" Guid="e84afc83-6cd5-48b0-ae7e-9a288275852b" InformativeScreenshot="e2d52d567b12ef6e32ca7ac95d88bcca.jpg" Reference="2LySjoRf9E6ctCVOb2qplA/osUqP-C5Z06_CzqPnzoKVA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='W3Schools Tryit Editor' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
+                    </uix:NCheck.Target>
+                  </uix:NCheck>
+                </Sequence>
+              </uix:NCheckState.IfExists>
+              <uix:NCheckState.IfNotExists>
+                <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="450,90" sap2010:WorkflowViewState.IdRef="Sequence_3">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                </Sequence>
+              </uix:NCheckState.IfNotExists>
+              <uix:NCheckState.Target>
+                <uix:TargetAnchorable BrowserURL="w3schools.com/tags/tryit.asp" ContentHash="RCITrE56GkSjWGotu9jHhA" DesignTimeRectangle="849, 220, 797, 99" ElementType="Container" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='iframeResult' tag='IFRAME' /&gt;&lt;webctrl tag='FORM' /&gt;" Guid="a83f3015-cadd-4410-b733-eb2aadf6af56" InformativeScreenshot="ad10cd0b8360ab44bd12bd7be41f3776.jpg" Reference="2LySjoRf9E6ctCVOb2qplA/ExbC6-KnGEy0r9yAG4d95w" ScopeSelectorArgument="&lt;html app='chrome.exe' title='W3Schools Tryit Editor' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
+              </uix:NCheckState.Target>
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+            </uix:NCheckState>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.OCREngine>
+        <ActivityFunc x:TypeArguments="sd:Image, scg:IEnumerable(scg:KeyValuePair(sd1:Rectangle, x:String))">
+          <ActivityFunc.Argument>
+            <DelegateInArgument x:TypeArguments="sd:Image" Name="Image" />
+          </ActivityFunc.Argument>
+        </ActivityFunc>
+      </uix:NApplicationCard.OCREngine>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="-8, -8, 1936, 1048" BrowserType="Chrome" ContentHash="w9AkPEHF8kWS5rjQm3p2MA" IconBase64="iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEoSURBVDhP1dLPK4RBHMfxZ/1q16+2JPsHOEpuIkV74k9wcXCa3JwcuEoppSQZpZSi9qDktHflPxBOJLUS4qSE93fnM3n2OeyZb716Zj4zzzzPTJP8w/KuBdNYwLwFAyldmmZ5d2asoDyHCRxi14IjXOEaG2hDAV7ZpZ4ryGmREs6waJ1ZvOEbTxiD/eK7sugOw1qgiHGcW6cTFcSJJ6iq/YUPtc0W8ljCHir1BWmU8QKb9CnWvsca4t/UMArbgp1DKS7QgQPEL0Wb6MVpKttHe3gxXWHvj5pkbjGksRnEc3rGVD1vKO9asa1JZlUjNmb7PlZu25vTSKa8G8EDbjCoNJR3k3jFBfqVZipcknUsK/kt27d3O+D2Natw6/rUa6xw+j3q/YlKkh83NMoSjdkVhQAAAABJRU5ErkJggg==" InformativeScreenshot="2a7150009e7e9a11561987aaf608cb65.jpg" Reference="2LySjoRf9E6ctCVOb2qplA/JTQ6y8dLkkm1bU9wDLUiDQ" Selector="&lt;html app='chrome.exe' title='W3Schools Tryit Editor' /&gt;" Url="https://www.w3schools.com/tags/tryit.asp?filename=tryhtml5_input_type_checkbox" Version="V3" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>
